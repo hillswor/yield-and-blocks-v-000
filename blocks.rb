@@ -6,4 +6,4 @@ def aliens
   return nil
 end
 
-aliens {|x, y| puts X}
+aliens {|x, y| puts x}
