@@ -3,9 +3,10 @@ def aliens
     i = 1
     j = 2
     yield(i, j)
-  else  
+  else
     puts "magick"
   end
 end
 
 aliens {|x, y| puts x}
+aliens
